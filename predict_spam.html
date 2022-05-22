@@ -1,0 +1,27 @@
+<!-- <html>
+    <form action="predict_spam.php" method="POST">
+        <textarea name="text" id="text"></textarea>
+        <input type="submit" value="submit">
+        </form>
+</html> -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Style-Type" content="text/css" /> 
+    <meta name="viewport" content="width=device-width">
+    <title>predict_spam.html</title>
+    <link href="/library/skin/tool_base.css" type="text/css" rel="stylesheet" media="all" />
+    <link href="/library/skin/morpheus-default/tool.css" type="text/css" rel="stylesheet" media="all" />
+    <script type="text/javascript" src="/library/js/headscripts.js"></script>
+<script type='text/javascript' src='https://alertcarolina.unc.edu/scripts/webalert.php'></script>    <style>body { padding: 5px !important; }</style>
+  </head>
+  <body>
+<form method="POST" action="predict_spam.php">
+<label>Enter text message:</label>
+<br /><br />
+<textarea id="text_message" name="text_message"rows = "5" cols = "50"></textarea>
+<br /><br />
+<input type="submit" value="Make prediction" />
+</form>
+  </body>
+</html>
